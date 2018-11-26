@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Social Queues</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -15,6 +15,21 @@
                     @endif
 
                     You are logged in!
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Networks</div>
+
+                    <div class="card-body">
+                        <div class="col-md-6 float-left">
+                            Twitter
+                        </div>
+                        <div class="col-md-6 float-right">
+                            Add Twitter Account
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
