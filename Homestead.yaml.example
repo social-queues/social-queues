@@ -1,0 +1,19 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+- ~/.ssh/id_rsa
+folders:
+-
+  map: /social-queues
+  to: /home/vagrant/social-queues
+sites:
+-
+  map: social-queues.test
+  to: /home/vagrant/social-queues/public
+databases:
+- homestead
+name: social-queues
+hostname: sq
